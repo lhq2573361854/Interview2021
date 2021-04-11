@@ -8,7 +8,7 @@ package com.tianling.dynamic.programming;
 public class LeetCode010 {
     public static void main(String[] args) {
         LeetCode010 leetCode010 = new LeetCode010();
-        System.out.println(leetCode010.isMatch("ab", ".*"));
+        System.out.println(leetCode010.isMatch("adceb", "a*b"));
     }
 
     public boolean isMatch(String s, String p) {

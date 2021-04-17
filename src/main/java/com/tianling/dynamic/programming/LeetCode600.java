@@ -16,8 +16,8 @@ public class LeetCode600 {
         int sum = 0;
         for (int i = 0; i < s.length(); i++) {
             if(s.charAt(i) == '1'){
-                sum+=dp[s.length() - i - 1];
-                if(i> 0  && s.charAt(i-1) == '1'){
+                sum += dp[s.length() - i - 1];
+                if(i > 0  && s.charAt(i-1) == '1'){
                     return sum;
                 }
             }
